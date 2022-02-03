@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+	font-family: "Logo du site";
+	src: url('fonts/good\ times\ rg.otf');
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', bold;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+.haut {
+    background-color: rgb(67, 70, 70);
+    padding-top: 0px;
+
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+}
+
+.haut .titre {
+    grid-column: 1 / 2;
+
+    text-decoration: none;
+
+    font-size: 2.4em;
+    font-family: "Logo du site";
+    font-style: italic;
+
+    text-shadow: 2px 2px rgb(141, 140, 140);
+
+    color: aliceblue;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-around;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.haut nav a {
+    text-decoration: none;
+    
+    font-size: 1.5em;
+
+    font-family: "roboto";
+    color: aliceblue;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: auto 75vw auto;
+    background-color: whitesmoke;
+
+}
+
+.name {
+    grid-column: 2/3;
+    grid-row: 1;
+    font-family: 'roboto', bold;
+    background-color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.5em;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-color: white;
+}
+
+h1{
+    margin-top: 5vw;
+    margin-left: 1vw;
+    grid-column: 1/2;
+    grid-row: 1;
+    color: rgb(0, 0, 0);
+}
+
+.soustitre{
+    padding-top: 16vw;
+    margin-left: 1vw;
+    grid-column: 1/2;
+    grid-row: 1;
+    font-size: 2.5vw;
+    font-family: 'poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.oppologo {
+    margin-top: auto;
+    margin-bottom: auto;
+    grid-column: 2/2;
+    grid-row: 1;
+}
+
+.little-strip3 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    grid-column: 2 / 3;
+    grid-row: 1;
+    background-color: #a9b0b9;
+    width: 50vw;
+    height: 2px;
+}
+
+.little-strip {
+    margin-top: 2vw;
+    grid-column: 2 / 3;
+    grid-row: 1;
+    background-color: #a9b0b9;
+    width: 50vw;
+    height: 2px;
+}
+
+.présentation {
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-color: black;
+}
+
+.h2{
+    padding-top: 1vw;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    padding-left: 2vw;
+    font-size: 2.75vw;
+}
+
+.paragraphe {
+    padding-top: 1vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-color: black;
+    color: white;
+}
+
+.oppoduo {
+    margin-top: 2vw;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}   
+
+.comparaison {
+    padding-top: 2vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-color: white;
+}
+.pointfort {
+    color: green;
+    padding-top: 1vw;
+    grid-column: 1/2;
+    grid-row: 1;
+    font-size: 1.75vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+.titrepointfort {
+    padding-left: 1vw;
+    font-size: 2.5vw;
+    font-family: 'poppins', sans-serif;
+}
+
+.ptb{
+    padding-left: 1vw   ;
+}
+
+.pointfaible {
+    color: red;
+    padding-top: 1vw;
+    grid-column: 2/2;
+    grid-row: 1;
+    font-size: 1.75vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+.titrepointfaible {
+    padding-left: 1vw;
+    font-size: 2.5vw;
+    font-family: 'poppins', sans-serif;
+}
+
+.ptf{
+    padding-left: 1vw   ;
+}
+
+.little-strip2 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    background-color: white;
+    margin-top: 2vw;
+    width: 50vw;
+    height: 2px;
+}
+
+h2 {
+    padding-left: 1vw;
+    color: black; 
+}
+
+.finir{
+    font-style: 'ubuntu';
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.c2 {
+    padding-top: 1vw;
+}
+
+.c3 {
+    padding-top: 1vw;
+}
+
+.c4 {
+    padding-top: 1vw;
+}
+
+.liens{
+    padding-left: 1vw;
+    font-family: 'ubuntu';
+}
