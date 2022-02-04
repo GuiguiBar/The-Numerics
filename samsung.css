@@ -59,6 +59,10 @@ nav {
     color: aliceblue;
 }
 
+.haut nav a:hover{
+    font-size: 2vw;
+}
+
 .page {
     display: grid;
     grid-template-columns: auto 75vw auto;
